@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: e2fee0326c90f3b40989bb95ac376b34
-timeCreated: 1514933208
+timeCreated: 1514935034
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -89,12 +89,12 @@ TextureImporter:
       name: maxresdefault_0
       rect:
         serializedVersion: 2
-        x: 592
-        y: 486
+        x: 195
+        y: 300
         width: 92
         height: 91
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -103,12 +103,12 @@ TextureImporter:
       name: maxresdefault_1
       rect:
         serializedVersion: 2
-        x: 784
-        y: 486
-        width: 89
-        height: 91
+        x: 290
+        y: 300
+        width: 91
+        height: 92
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -117,12 +117,12 @@ TextureImporter:
       name: maxresdefault_2
       rect:
         serializedVersion: 2
-        x: 688
-        y: 486
+        x: 99
+        y: 300
         width: 91
         height: 91
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

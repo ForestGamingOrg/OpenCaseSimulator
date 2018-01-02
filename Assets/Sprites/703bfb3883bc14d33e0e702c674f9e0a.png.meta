@@ -1,12 +1,14 @@
 fileFormatVersion: 2
 guid: b72069763820bf94da126905a990f7e1
-timeCreated: 1514933320
+timeCreated: 1514934709
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: 703bfb3883bc14d33e0e702c674f9e0a_0
     21300002: 703bfb3883bc14d33e0e702c674f9e0a_1
     21300004: 703bfb3883bc14d33e0e702c674f9e0a_2
+    21300006: 703bfb3883bc14d33e0e702c674f9e0a_3
+    21300008: 703bfb3883bc14d33e0e702c674f9e0a_4
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -89,12 +91,12 @@ TextureImporter:
       name: 703bfb3883bc14d33e0e702c674f9e0a_0
       rect:
         serializedVersion: 2
-        x: 786
-        y: 427
+        x: 441
+        y: 279
         width: 136
         height: 137
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -103,12 +105,12 @@ TextureImporter:
       name: 703bfb3883bc14d33e0e702c674f9e0a_1
       rect:
         serializedVersion: 2
-        x: 499
-        y: 425
+        x: 154
+        y: 426
         width: 137
         height: 137
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -117,9 +119,37 @@ TextureImporter:
       name: 703bfb3883bc14d33e0e702c674f9e0a_2
       rect:
         serializedVersion: 2
-        x: 499
-        y: 279
+        x: 11
+        y: 280
         width: 137
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 703bfb3883bc14d33e0e702c674f9e0a_3
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 132
+        width: 137
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 703bfb3883bc14d33e0e702c674f9e0a_4
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 573
+        width: 136
         height: 137
       alignment: 0
       pivot: {x: 0, y: 0}

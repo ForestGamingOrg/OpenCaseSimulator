@@ -14,10 +14,7 @@ public class CaseScript : MonoBehaviour {
     public Image[] prefabImages;
 
 	void Start () {
-		for(int a = 0; a <= prefabs.Length; a++)
-        {
-            //prefabImages[a].sprite = prefabs[a].GetComponent<Image>().sprite;
-        }
+		
 	}
 
 	void Update () {
