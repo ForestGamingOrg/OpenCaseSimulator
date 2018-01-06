@@ -28,11 +28,11 @@ public class CaseScript : MonoBehaviour {
     {
         openCase = true;
         gameObject.SetActive(true);
-        SimulateCase();
+        SimulateCase(caseID);
         velocity = Random.RandomRange(50, 60);
     }
 
-    void SimulateCase()
+    void SimulateCase( int id)
     {
         for(int k = 0; k <=40; k++)
         {
@@ -42,29 +42,29 @@ public class CaseScript : MonoBehaviour {
             if(rand <= 500)//60%
             {
                 randWeapon = 0;
-                prefabImages[randWeapon].sprite = ws[0].blueW[Random.Range(0, ws[0].blueW.Length)];
+                prefabImages[randWeapon].sprite = ws[id].blueW[Random.Range(0, ws[0].blueW.Length)];
             }
             else if( rand > 500 && rand <= 800)//30%
             {
                 randWeapon = 1;
-                prefabImages[randWeapon].sprite = ws[0].greenW[Random.Range(0, ws[0].greenW.Length)];
+                prefabImages[randWeapon].sprite = ws[id].greenW[Random.Range(0, ws[0].greenW.Length)];
             }
             else if (rand > 800 && rand <= 900)//10%
             {
                 randWeapon = 2;
-                prefabImages[randWeapon].sprite = ws[0].purpleW[Random.Range(0, ws[0].purpleW.Length)];
+                prefabImages[randWeapon].sprite = ws[id].purpleW[Random.Range(0, ws[0].purpleW.Length)];
 
             }
             else if (rand > 900 && rand <= 960)//6%
             {
                 randWeapon = 3;
-                prefabImages[randWeapon].sprite = ws[0].redW[Random.Range(0, ws[0].redW.Length)];
+                prefabImages[randWeapon].sprite = ws[id].redW[Random.Range(0, ws[0].redW.Length)];
 
             }
             else if (rand > 960)//4%
             {
                 randWeapon = 4;
-                prefabImages[randWeapon].sprite = ws[0].knife[Random.Range(0, ws[0].knife.Length)];
+                prefabImages[randWeapon].sprite = ws[id].knife[Random.Range(0, ws[0].knife.Length)];
             }
 
             GameObject obj = Instantiate(prefabs[randWeapon], new Vector2(0, 0), Quaternion.identity) as GameObject;
