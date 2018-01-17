@@ -9,7 +9,7 @@ public class CsGoCaseSimulate : MonoBehaviour {
     public GameObject prefab;
     public GameObject parrent;
     public GameObject ItemsList;
-    GameObject obj;
+    public GameObject obj;
     public int rand;
     public int CaseID;
     public Sprite ImageCase;
@@ -95,27 +95,27 @@ public class CsGoCaseSimulate : MonoBehaviour {
             for (int k = 0; k < caseSkins.blueSkins.Length; k++)
             {
                prefab = caseSkins.blueSkins[k].gameObject;
-               GameObject obj =  Instantiate(prefab, new Vector2(0, 0), Quaternion.identity, ItemsList.transform) as GameObject;
+                obj =  Instantiate(prefab, new Vector2(0, 0), Quaternion.identity, ItemsList.transform) as GameObject;
             }
             for (int k = 0; k < caseSkins.purpleSkins.Length; k++)
             {
                 prefab = caseSkins.purpleSkins[k].gameObject;
-                GameObject obj = Instantiate(prefab, new Vector2(0, 0), Quaternion.identity, ItemsList.transform) as GameObject;
+                 obj = Instantiate(prefab, new Vector2(0, 0), Quaternion.identity, ItemsList.transform) as GameObject;
             }
             for (int k = 0; k < caseSkins.pinkSkins.Length; k++)
             {
                 prefab = caseSkins.pinkSkins[k].gameObject;
-                GameObject obj  =Instantiate(prefab, new Vector2(0, 0), Quaternion.identity, ItemsList.transform) as GameObject;
+                 obj  =Instantiate(prefab, new Vector2(0, 0), Quaternion.identity, ItemsList.transform) as GameObject;
             }
             for (int k = 0; k < caseSkins.redSkins.Length; k++)
             {
                 prefab = caseSkins.redSkins[k].gameObject;
-                GameObject obj = Instantiate(prefab, new Vector2(0, 0), Quaternion.identity, ItemsList.transform) as GameObject;
+                 obj = Instantiate(prefab, new Vector2(0, 0), Quaternion.identity, ItemsList.transform) as GameObject;
             }
             for (int k = 0; k < caseSkins.knifeSkins.Length; k++)
             {
                 prefab = caseSkins.knifeSkins[k].gameObject;
-                GameObject obj = Instantiate(prefab, new Vector2(0, 0), Quaternion.identity, ItemsList.transform) as GameObject;
+                 obj = Instantiate(prefab, new Vector2(0, 0), Quaternion.identity, ItemsList.transform) as GameObject;
             }
         
     }
